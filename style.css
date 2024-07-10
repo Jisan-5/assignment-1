@@ -1,0 +1,80 @@
+/* Google Font Azeret Mono */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Azeret Mono", monospace;
+  letter-spacing: 0%;
+}
+
+/* Shared Style for use multiple class*/
+.description-text {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+
+/* Header section Start */
+.header-section {
+  background-image: url("assets/Hero-bg.png");
+  height: 652px;
+  width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 26px;
+  width: 998px;
+  height: 582px;
+  border: 2px solid blue;
+}
+
+.header-content img {
+  width: 240px;
+  height: 240px;
+  margin-bottom: 32px;
+  
+}
+
+
+/* header text style*/
+.header-h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.header-button {
+  position: static;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  Font-weight: 600;
+  Font-size: 20px;
+  padding: 21px 24px 21px 24px;
+  margin: 32px 0 44px 0;
+}
+/* Header section End */
+
