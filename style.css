@@ -28,12 +28,13 @@ button {
   line-height: 26px;
   text-align: center;
 }
-.learn-more-2{
+
+.learn-more-2 {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
 }
 
 .text-center {
@@ -200,8 +201,6 @@ p {
 }
 
 .card-content {
-
-  border: 1px solid red;
   width: 1140px;
   height: 300px;
   margin: 0 auto;
@@ -212,14 +211,13 @@ p {
 
 .card {
   padding: 40px;
-  border: 1px solid black;
   width: 364px;
   height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 16px;
-  
+
 
 }
 
@@ -253,28 +251,31 @@ p {
   font-weight: 700;
   line-height: 19px;
 }
+
 /* Current Section Section End */
 
-.next-target h1{
+.next-target h1 {
   margin-bottom: 24px;
 }
-.next-target p{
+
+.next-target p {
   margin-bottom: 48px;
 }
 
 /* Target Card Section */
-.target-card-container{
+.target-card-container {
   width: 1140px;
   height: 708px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 41px;
 }
-.target-card{
+
+.target-card {
   width: 1140px;
   height: 220px;
-  border: 2px solid blue;
   padding: 40px;
   border-radius: 16px;
   display: flex;
@@ -283,13 +284,73 @@ p {
   border: 1px solid rgb(155, 155, 155);
 }
 
-.technology-content h1{
+.technology-content h1 {
   margin-bottom: 8px;
 }
-.technology-content p{
+
+.technology-content p {
   margin-bottom: 34px;
 }
-.technology-image{
+
+.technology-image {
   width: 120px;
   height: 120px;
 }
+
+/* Target Section End */
+
+/* Support section start */
+.support-section {
+
+  width: 1140px;
+  height: 314px;
+  margin: 0 auto;
+  background-image: url("assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  border-radius: 16px;
+}
+
+.support-head {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.support-p {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.support-input {
+  padding: 19px 20px 19px 20px;
+  width: 548px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.support-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1140px;
+  height: 314px;
+}
+.submit-btn{
+  width:120px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 20px;
+font-weight: 600;
+}
+
+/* Support section End */
