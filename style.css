@@ -54,7 +54,7 @@ button {
 
 /* Header section Start */
 .header-section {
-  background-image: url("assets/Hero-bg.png");
+  background-image: url("./assets/Hero-bg.png");
   height: 652px;
   width: 1440px;
   background-repeat: no-repeat;
@@ -310,7 +310,7 @@ p {
   width: 1140px;
   height: 314px;
   margin: 0 auto;
-  background-image: url("assets/handshake.jpg");
+  background-image: url("./assets/handshake.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
