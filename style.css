@@ -13,6 +13,9 @@ body {
   font-family: "Azeret Mono", monospace;
   letter-spacing: 0%;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 button {
   cursor: pointer;
