@@ -1,3 +1,8 @@
+/* My website is make for 1440px size monitor display */
+body {
+  width: 1440px;
+}
+
 /* Google Font Azeret Mono */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -7,6 +12,9 @@
   padding: 0;
   font-family: "Azeret Mono", monospace;
   letter-spacing: 0%;
+}
+button{
+  cursor: pointer;
 }
 
 /* Shared Style for use multiple class*/
@@ -20,6 +28,13 @@
   text-align: center;
 }
 
+/* Why Section Heading text */
+.why-heading-text {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+}
 
 /* Header section Start */
 .header-section {
@@ -29,8 +44,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-      justify-content: center;
-      align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 74px;
 
 }
 
@@ -43,18 +59,15 @@
   margin-top: 26px;
   width: 998px;
   height: 582px;
-  border: 2px solid blue;
 }
 
 .header-content img {
   width: 240px;
   height: 240px;
   margin-bottom: 32px;
-  
+
 }
 
-
-/* header text style*/
 .header-h1 {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -76,5 +89,55 @@
   padding: 21px 24px 21px 24px;
   margin: 32px 0 44px 0;
 }
+
 /* Header section End */
 
+
+/* Why section Start */
+.why-section {
+  height: 1395px;
+  width: 1140px;
+  margin: 0 auto;
+  background-color: rgba(13, 19, 33, 0.02);
+}
+
+.why-section-midle {
+  width: 946px;
+  height: 1235px;
+  margin: 80px 97px;
+}
+
+.why-section-midle h1,
+p {
+  text-align: center;
+}
+
+.why-section-content-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 48px;
+  margin-bottom: 32px;
+  margin-top: 48px;
+  
+}
+.why-section-content-2 div{
+  width: 500px;
+  height: 230px;
+}
+
+.why-section-content-2 p {
+  text-align: start;
+  margin: 16px 0 32px 0;
+
+}
+
+.learn-more-button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid gray;
+  background-color: white;
+  color: rgb(13, 19, 33);
+}
