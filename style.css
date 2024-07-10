@@ -8,7 +8,8 @@
   font-family: "Azeret Mono", monospace;
   letter-spacing: 0%;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -311,6 +312,7 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   border-radius: 16px;
+  margin-bottom: 79px;
 }
 
 .support-head {
@@ -336,7 +338,8 @@ p {
   border-radius: 8px;
   background: rgb(255, 255, 255);
 }
-.support-content{
+
+.support-content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -344,12 +347,32 @@ p {
   width: 1140px;
   height: 314px;
 }
-.submit-btn{
-  width:120px;
+
+.submit-btn {
+  width: 120px;
   height: 60px;
   border-radius: 8px;
   font-size: 20px;
-font-weight: 600;
+  font-weight: 600;
 }
 
 /* Support section End */
+
+/* Footer section */
+.footer {
+  width: 1440px;
+  height: 35px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  margin-bottom: 35px;
+}
+
+.footer-text {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+}
